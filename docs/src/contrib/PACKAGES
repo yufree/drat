@@ -9,3 +9,12 @@ Suggests: testthat (>= 2.1.0), covr, devtools, knitr,
 License: MIT + file LICENSE
 MD5sum: 818c6fad408d5c42650b5024a7d1254d
 NeedsCompilation: no
+
+Package: xMSannotator
+Version: 1.3.2
+Depends: R (>= 2.10), XML, R2HTML, WGCNA, RCurl, doSNOW,
+      foreach, SSOAP, png, rjson, snow, plyr, KEGGREST,
+      flashClust, pcaMethods, Rdisop
+License: GPL-2
+MD5sum: 9537bc78c4c4edca776eb0a094941dda
+NeedsCompilation: no
