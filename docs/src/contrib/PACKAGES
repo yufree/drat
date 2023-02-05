@@ -1,8 +1,11 @@
-Package: drat
-Version: 0.1.8
-Depends: R (>= 3.2.0)
-Imports: utils
-Suggests: git2r, knitr, rmarkdown
-License: GPL (>= 2)
-MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
+Package: Autotuner
+Version: 1.3.0
+Depends: R (>= 4.0.0), methods, Biobase, MSnbase (>=
+      2.14.2)
+Imports: RColorBrewer, mzR, assertthat, scales, entropy,
+      cluster, grDevices, graphics, stats, utils
+Suggests: testthat (>= 2.1.0), covr, devtools, knitr,
+      rmarkdown, mtbls2
+License: MIT + file LICENSE
+MD5sum: 818c6fad408d5c42650b5024a7d1254d
 NeedsCompilation: no
