@@ -10,6 +10,15 @@ License: MIT + file LICENSE
 MD5sum: 818c6fad408d5c42650b5024a7d1254d
 NeedsCompilation: no
 
+Package: XMLSchema
+Version: 0.8-0
+Depends: R (>= 1.5.0), methods, XML
+Imports: RCurl, codetools
+Suggests: RCurl
+License: GPL-2
+MD5sum: a34753b8e74afc612c56ee93bb9008b7
+NeedsCompilation: no
+
 Package: xMSannotator
 Version: 1.3.2
 Depends: R (>= 2.10), XML, R2HTML, WGCNA, RCurl, doSNOW,
