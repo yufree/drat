@@ -10,6 +10,23 @@ License: MIT + file LICENSE
 MD5sum: 818c6fad408d5c42650b5024a7d1254d
 NeedsCompilation: no
 
+Package: metfRag
+Version: 2.4.2
+Depends: R (>= 2.14.0), rJava, rcdk, rcdklibs (>=
+      1.5.8.4), rjson
+Imports: squash
+License: LGPL
+MD5sum: 7ea2097a1e176d89c65b95162aa384ce
+NeedsCompilation: no
+
+Package: SSOAP
+Version: 0.9-0
+Depends: R (>= 1.5.0), methods
+Imports: XML, RCurl, XMLSchema
+License: GPL-2
+MD5sum: e89064db449030ee56d014c31f0c4ba0
+NeedsCompilation: no
+
 Package: XMLSchema
 Version: 0.8-0
 Depends: R (>= 1.5.0), methods, XML
