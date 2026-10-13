@@ -44,3 +44,13 @@ Depends: R (>= 2.10), XML, R2HTML, WGCNA, RCurl, doSNOW,
 License: GPL-2
 MD5sum: 9537bc78c4c4edca776eb0a094941dda
 NeedsCompilation: no
+
+Package: opentimsr
+Version: 1.2.1
+Depends: R (>= 4.3.0)
+Imports: Rcpp (>= 0.12.0), methods, DBI, RSQLite
+LinkingTo: Rcpp
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 0f3ff60b80c2fdf06ea382a626fbad3a
+NeedsCompilation: yes
